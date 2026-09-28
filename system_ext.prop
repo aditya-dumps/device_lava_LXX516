@@ -1,0 +1,36 @@
+# Audio
+ro.audio.ihaladaptervendorextension_enabled=true
+
+# Radio
+persist.vendor.radio.mdrec.simpin.cache=0
+ro.telephony.se.enable=true
+
+# Miscellaneous
+keyguard.no_require_sim=true
+persist.device_config.aconfig_flags.codec_fwk.com.android.media.codec.flags.aidl_hal=true
+persist.silent.reboot.enabled=false
+persist.sys.bl.clearuserdata=true
+persist.unipnp.report.enabled=false
+persist.unipnp.report.upload.enabled=false
+ro.com.android.dataroaming=false
+ro.config.isolated_compilation_enabled=true
+ro.launcher.desktopgrid=true
+ro.launcher.dynamic=false
+ro.launcher.multimode=true
+ro.launcher.notifbadge.count=true
+ro.media.recoderEIS.enabled=true
+ro.media.wfd.rgb.enabled=true
+ro.product.assistanttouch=false
+ro.simlock.onekey.lock=0
+ro.simlock.unlock.autoshow=1
+ro.simlock.unlock.bynv=0
+ro.sprd.pwctl.ultra.message=1
+ro.sprd.superresolution=1
+ro.sr.displaysize.defaultresolution=0
+ro.sr.displaysize.lowresolution=1
+ro.support_one_handed_mode=true
+ro.sys.pwctl.ultrasaving=1
+ro.system.component.label=SYSTEM-Android15--U1.0-W25.48.5
+ro.unipnp.switch=true
+ro.virtual_ab.merge_delay_seconds=300
+

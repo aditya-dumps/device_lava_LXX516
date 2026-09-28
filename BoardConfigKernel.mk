@@ -3,6 +3,9 @@ KERNEL_PATH := device/lava/LXX516-kernel
 # Prebuilt kernel
 TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/kernel
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
+
+# DTB in boot image
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtb
 
 # Kernel modules (vendor_boot ramdisk)

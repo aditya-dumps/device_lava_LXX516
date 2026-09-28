@@ -87,7 +87,8 @@ PRODUCT_PACKAGES += \
     init.zramwb.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.ums9621_1h10:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.ums9621_1h10
+    $(LOCAL_PATH)/rootdir/etc/fstab.ums9621_1h10:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.ums9621_1h10 \
+    $(LOCAL_PATH)/rootdir/etc/fstab.ums9621_1h10:$(TARGET_COPY_OUT_RECOVERY)/first_stage_ramdisk/fstab.ums9621_1h10
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

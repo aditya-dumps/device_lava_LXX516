@@ -1,0 +1,7 @@
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/lineage_LXX516.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_LXX516-userdebug \
+    lineage_LXX516-user \
+    lineage_LXX516-eng

@@ -115,3 +115,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel prebuilts
 include device/lava/LXX516/BoardConfigKernel.mk
+
+# SELinux - permissive for bring-up
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+SELINUX_IGNORE_NEVERALLOWS := true

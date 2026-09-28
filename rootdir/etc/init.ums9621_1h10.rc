@@ -40,3 +40,7 @@ service insmod-sh /vendor/bin/init.insmod.sh /vendor/lib/modules/init.insmod.cfg
     disabled
     oneshot
 
+
+# SELinux permissive for bring-up
+on early-init
+    setenforce 0

@@ -5,6 +5,8 @@
 
 DEVICE_PATH := device/lava/LXX516
 
+# Ramdisk compression — Unisoc LK bootloader requires LZ4, not gzip
+BOARD_RAMDISK_USE_LZ4 := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
